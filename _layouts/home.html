@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div id="all-images-list-container">
+  <ul>
+    {% for document in site.documents %}
+      {% if document.moving %}
+        {% for color in document.colors %}
+          <li>{{site.url}}/assets/images/{{document.name}}_{{color}}-med.gif</li>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+<div id="hero-image"></div>

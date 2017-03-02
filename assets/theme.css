@@ -1,0 +1,272 @@
+---
+---
+/*
+Theme Name: sofieramos
+Theme URI: nowheresville
+Author: leggers
+Author URI: leggers.me
+Description: Sofie Ramos made this theme in iWeb. Then Apple stopped supporting it :'(
+Version: 0.1
+License: MIT
+Tags: abstract, art, rainbow, gif, movement, expressionism, color
+Text Domain: leggers.me
+*/
+
+/********************************************************
+* GLOBAL STYLES
+*/
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+  min-height: 1715px;
+}
+
+a {
+  color: rgb(169, 169, 169);
+  text-decoration: none;
+  cursor: auto;
+}
+
+a:hover {
+  color: rgb(94, 94, 94);
+}
+
+div.top-level-div {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+header.header {
+  height: 109px;
+  position: relative;
+  margin-left: 0px;
+  width: 650px;
+}
+
+div.footer {
+  height: 150px;
+}
+
+div.spacer {
+  height: 1100px;
+}
+
+div.name {
+  height: 101px;
+  position: absolute;
+  top: 16px;
+  width: 199px;
+}
+
+a.name-link {
+  font-size: 48px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  opacity: 1.00;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+  text-transform: none;
+}
+
+a.name-link.dark {
+  color: rgb(94, 94, 94);
+}
+
+div.top-level-nav {
+  right: 0px;
+  position: absolute;
+  top: 6px;
+  width: 80px;
+  font-family: ArialMT, Arial, sans-serif;
+  font-size: 22px;
+  letter-spacing: -1.1px;
+  text-align: right;
+  cursor: auto;
+}
+
+a.nav-link {
+  color: rgb(192, 192, 192);
+  line-height: 29px;
+}
+
+a.nav-link:hover {
+  color: rgb(94, 94, 94);
+}
+
+main.stuff {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 650px;
+}
+
+/********************************************************
+* home PAGE STYLES
+*/
+
+div.content.sofie_ramos_art {
+  top: -12px;
+}
+
+div.content.sofie_ramos_art img {
+  width: inherit;
+}
+
+div.sofie_ramos_art div.header div.sofie-ramos-name a {
+  color: rgb(94, 94, 94);
+}
+
+div#all-images-list-container {
+  display: none;
+}
+
+div#hero-image {
+  margin-top: 30px;
+  width: inherit;
+}
+
+div#hero-image > img {
+  display: flex;
+  margin: auto;
+  width: inherit;
+}
+
+/********************************************************
+* INFO PAGE STYLES
+*/
+
+div.content.info {
+  left: 13px;
+  top: 14px;
+}
+
+div.photo img {
+  width: 100%;
+}
+
+div.info div.header div.name a {
+  color: rgb(94, 94, 94);
+}
+
+div.info div.header div.name a:hover {
+  color: rgb(192, 192, 192);
+}
+
+div.infos {
+  margin-top: 13px;
+  margin-left: 3px;
+  color: rgb(94, 94, 94);
+  font-family: 'ArialMT', 'Arial', sans-serif;
+  font-size: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+}
+
+div.info-right {
+  position: absolute;
+  right: 127px;
+  top: 394px;
+}
+
+a.resume-link {
+  left: 415px;
+  top: 47px;
+  position: relative;
+  font-size: 17px;
+  font-family: 'ArialMT', 'Arial', sans-serif;
+}
+
+/********************************************************
+* SIDEBAR STYLES
+*/
+
+div.sidebar {
+  position: absolute;
+  width: 103;
+  text-align: right;
+  font-size: 13px;
+}
+
+div.sidebar > div.link {
+  position: relative;
+  padding-bottom: 6px;
+}
+
+a.selected {
+  color: rgb(94, 94, 94);
+}
+
+/********************************************************
+* PHOTO STYLES
+*/
+
+div.artwork {
+  margin-bottom: 30px;
+  color: rgb(94, 94, 94);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+div.description > div {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 3px;
+}
+
+div.full-width-photo img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 3px;
+}
+
+div.full-width-photos img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 3px;
+}
+
+div.full-width-photo iframe {
+  width: 100%;
+  height: 327px;
+  margin-bottom: 3px;
+}
+
+div.full-width-photos iframe {
+  width: 100%;
+  height: 327px;
+  margin-bottom: 3px;
+}
+
+div.side-by-side-photos img {
+  width: 49.5%;
+  height: auto;
+  margin-bottom: 3px;
+}
+
+div.side-by-side-photos img:nth-child(2) {
+  float: right;
+}
